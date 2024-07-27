@@ -1,0 +1,19 @@
+{
+  "name": "freight-audit-poc",
+  "version": "1.0.0",
+  "description": "Freight audit POC",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjlouji/freight-audit-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjlouji/freight-audit-poc/issues"
+  },
+  "homepage": "https://github.com/sjlouji/freight-audit-poc#readme",
+  "dependencies": {
+  }
+}

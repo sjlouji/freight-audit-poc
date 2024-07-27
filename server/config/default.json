@@ -1,0 +1,18 @@
+{
+  "server": {
+    "port": "51000"
+  },
+  "freight_audit_service":{
+    "username": "postgres",
+    "password": "admin",
+    "database": "db_freight_audit_poc",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+  }
+}
