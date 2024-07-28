@@ -1,6 +1,6 @@
 'use strict';
 const tableName = 'shipments';
-const uniqueFields = ['shipment_number', 'vendor_id'];
+const uniqueFields = ['shipment_number', 'vendor_ref_id'];
 const uniqueIndexName = 'shipments_unique_index';
 const uniqueConstraintName = 'shipments_unique_constraint';
 
@@ -25,8 +25,8 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      vendor_id: {
-        type: Sequelize.INTEGER,
+      vendor_ref_id: {
+        type: Sequelize.STRING,
         allowNull: false,
       },
       status: {

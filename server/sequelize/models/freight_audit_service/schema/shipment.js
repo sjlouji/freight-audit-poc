@@ -17,7 +17,7 @@ module.exports = (DataTypes) => ({
     type: DataTypes.STRING,
     allowNull: false,
   },
-  vendor_id: {
+  vendor_ref_id: {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
