@@ -3,8 +3,8 @@
 const path = require('path');
 
 module.exports = {
-  config: path.resolve('config', 'config.json'),
-  'models-path': path.resolve('sequelize', 'models'),
-  'seeders-path': path.resolve('sequelize', 'seeders'),
-  'migrations-path': path.resolve('sequelize', 'migrations'),
+  "config": path.resolve('./sequelize/config.js'),
+  "models-path": path.resolve('./sequelize/models/freight_audit_service'),
+  "seeders-path": path.resolve('./sequelize/seeders/freight_audit_service'),
+  "migrations-path": path.resolve('./sequelize/migrations/freight_audit_service')
 };
